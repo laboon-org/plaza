@@ -11,6 +11,7 @@ import Header from "./components/header/header";
 import "antd/dist/antd.css";
 import "./App.scss";
 import Footer from "./components/footer/footer";
+import Marketplace from "./features/marketplace/marketplace";
 
 const { Content } = Layout;
 
@@ -23,7 +24,8 @@ function App() {
 
   return (
     <ConfigProvider direction={uiStore.direction}>
-      <Layout className="App">
+      <Marketplace />
+      {/* <Layout className="App">
         {authStore.isLoggedIn && <Header />}
         <Content className="site-layout">
           {authStore.authState === AuthState.LoggedIn ? (
@@ -33,7 +35,7 @@ function App() {
           )}
         </Content>
         <Footer />
-      </Layout>
+      </Layout> */}
     </ConfigProvider>
   );
 }
