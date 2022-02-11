@@ -1,6 +1,8 @@
-.header {
+.headerTxt {
     font-size: 30;
     color:white;
+    padding-left: 10px;
+    text-align: center;
 }
 .background {
     background-color: black;
@@ -15,15 +17,19 @@
     height: calc(100vh - 122px);
     margin: auto;
 }
+.logo {
+    width: 5.49%;
+    height: 80px;
+}
 .headerForm {
     display: flex;
-    margin-left: 20px;
     height: 95px;
+    align-items: center;
 }
 .iconButton {
     width: 20px;
     height: 20px;
-    left: 10px;
+    margin-right: 10px;
 }
 .button {
     border-top-left-radius: 10px;
@@ -32,10 +38,15 @@
     border-color: black;
     display: flex;
     width: 15.7%;
-    height: 7%;
-    margin-right: 10px;
     align-items: center;
-    
+    justify-content: center;
+    margin-right: 15px;
+}
+.title {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
 }
 button:hover {
     background-color: #C4BAA1;
@@ -43,7 +54,6 @@ button:hover {
 .body {
     background-color: #F0E4DB;
     width: 100%;
-    // height: 500px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     margin: auto;
@@ -56,6 +66,31 @@ button:hover {
     padding: 10px;
 }
 .filterForm {
-    width: 28%;
-    
+    width: 23.4%;
+    height: 300px;
+    border-radius: 10px;
+    border-color: black;
+}
+.filter {
+   width: 93.36%;
+   background-color: #D8C7BA;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   margin: 10px;
+}
+
+.gen {
+    width: 93.36%;
+   background-color: #D8C7BA;
+   border-radius: 10px;
+   margin: 10px;
+}
+.radio {
+    background-color: red;
+}
+.brownTxt {
+    color: #5B5A59
+}
+.redTxt {
+    color: #CF5758;
 }
