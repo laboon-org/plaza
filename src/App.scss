@@ -11,6 +11,12 @@
 .site-content {
   height: 100%;
 }
+iframe {
+  z-index: -1 !important;
+}
+p {
+  margin-bottom: 0;
+}
 
 // global
 @import "./styles/colors";
