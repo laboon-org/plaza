@@ -1,5 +1,6 @@
 import React from 'react'
 import a from '../../../../image/a.png'
+import purchase_btn from '../../../../image/image_infoForm/purchase_btn.png'
 import image_level from '../../../../image/level.png'
 import InformationItem from './information_item'
 
@@ -10,32 +11,36 @@ export default function InfoFormElement(props:{iconItem1:any, iconItem2:any,icon
   return (
     <div className='infoForm-element'>
         <div className='infoForm-element--frame'>
-        <div className='information'>
-        <div className='information-left'>
-            <div className='information-left__id'>
-            sấdfregrdfgdfghfd
-            </div>
-            <div className='information-left__level'>
-              <p>Gen 2</p>
-              <img src={image_level} alt="" />
-            </div>
-            <img className='information-left__image' src={a} alt="" />
-        </div>
-        <div className='information-right'>
-          <InformationItem iconItem={iconItem1} parameter={parameter1}/>
-          <InformationItem iconItem={iconItem2} parameter={parameter2}/>
-          <InformationItem iconItem={iconItem3} parameter={parameter3}/>
-          <InformationItem iconItem={iconItem4} parameter={parameter4}/>
-          <InformationItem iconItem={iconItem5} parameter={parameter5}/>
-          <InformationItem iconItem={iconItem6} parameter={parameter6}/>
-        </div>
-        </div>
-        <div className='price'>
-
-        </div>
-        <div className='infoForm-element__button'>
-
-        </div>
+          <div className='information'>
+          <div className='information-left'>
+              <div className='information-left__id'>
+              #123456
+              </div>
+              <div className='information-left__level'>
+                <p>Gen 2</p>
+                <img src={image_level} alt="" />
+              </div>
+              <img className='information-left__image' src={a} alt="" />
+          </div>
+          <div className='information-right'>
+            <InformationItem iconItem={iconItem1} parameter={parameter1}/>
+            <InformationItem iconItem={iconItem2} parameter={parameter2}/>
+            <InformationItem iconItem={iconItem3} parameter={parameter3}/>
+            <InformationItem iconItem={iconItem4} parameter={parameter4}/>
+            <InformationItem iconItem={iconItem5} parameter={parameter5}/>
+            <InformationItem iconItem={iconItem6} parameter={parameter6}/>
+          </div>
+          </div>
+          <div className='price'>
+          <p className='price-boon'>
+              0.009
+          </p>
+          <img className='price-img' src='https://storage.googleapis.com/laboon-img-storage/play-elu/seed-sale/boon-coin1.webp' alt="" />
+          <p className='price-usd'>$34</p>
+          </div>
+          <div className='infoForm-element__button'>
+              <img src={purchase_btn} alt="" />
+          </div>
         </div>
     </div>
   )
