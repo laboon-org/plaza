@@ -19,7 +19,8 @@ export default function InfoFormContent() {
         parameter3={50}
         parameter4={50}
         parameter5={50}
-        parameter6={50} />
+        parameter6={50} 
+        />
     </div>
   )
 }

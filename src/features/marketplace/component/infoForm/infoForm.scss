@@ -18,6 +18,7 @@
 .infoForm-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 40px;
 }
 
@@ -25,6 +26,16 @@
     width: 30%;
     display: flex;
     justify-content: space-between;
+}
+
+.infoForm-header__left--text {
+    font-family: CookieRunOTF;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 41px;
+    color: #ffffff;
+    -webkit-text-stroke: 0.5px solid #000000;
 }
 
 .infoForm-header__left--button {

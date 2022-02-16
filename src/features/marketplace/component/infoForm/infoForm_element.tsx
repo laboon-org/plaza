@@ -1,7 +1,9 @@
 import React from 'react'
 import a from '../../../../image/a.png'
 import purchase_btn from '../../../../image/image_infoForm/purchase_btn.png'
+import backgroundBtn from '../../../../image/image_infoForm/button-orange.png'
 import image_level from '../../../../image/level.png'
+import InfoFormBtn from './infoForm_button'
 import InformationItem from './information_item'
 
 export default function InfoFormElement(props:{iconItem1:any, iconItem2:any,iconItem3:any,iconItem4:any,iconItem5:any,iconItem6:any,
@@ -14,11 +16,11 @@ export default function InfoFormElement(props:{iconItem1:any, iconItem2:any,icon
           <div className='information'>
           <div className='information-left'>
               <div className='information-left__id'>
-              #123456
+           <InfoFormBtn backgroundBtn={backgroundBtn} textBtn='#123456' />
               </div>
               <div className='information-left__level'>
                 <p>Gen 2</p>
-                <img src={image_level} alt="" />
+                <img className='information-left__level--img' src={image_level} alt="" />
               </div>
               <img className='information-left__image' src={a} alt="" />
           </div>
