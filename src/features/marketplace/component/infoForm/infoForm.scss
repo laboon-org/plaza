@@ -1,0 +1,50 @@
+.infoForm {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    border: 2px solid #b5aba1;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.infoForm-frame {
+    width: 96%;
+    height: 96%;
+}
+
+.infoForm-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.infoForm-header__left {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoForm-header__left--text {
+    font-family: CookieRunOTF;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 41px;
+    color: #ffffff;
+    -webkit-text-stroke: 0.5px solid #000000;
+}
+
+.infoForm-header__left--button {
+    display: flex;
+    align-items: center;
+}
+
+.infoForm-header__right {
+    width: 28.7%;
+    display: flex;
+    justify-content: space-between;
+}

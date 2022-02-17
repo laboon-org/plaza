@@ -45,28 +45,28 @@ export default function Tier() {
             </div>
             <div >
                 <p>Tier 2</p>
-                <div className='detail titleForm'>
-                    <DetailItem tier type='checkbox' label='Mountain' url={mountain} className='detail' labelStyle='brownTxt titleItem'/>
-                    <DetailItem tier type='checkbox' label='Comet' url={comet} className='detail' labelStyle='brownTxt titleItem'/>
-                    <DetailItem tier type='checkbox' label='Inferno' url={inferno} className='detail' labelStyle='brownTxt titleItem'/>
-                    <DetailItem tier type='checkbox' label='Wood' url={wood} className='detail' labelStyle='brownTxt titleItem'/>
-                    <DetailItem tier type='checkbox' label='Plasma' url={plasma} className='detail' labelStyle='brownTxt titleItem'/>
-                    <DetailItem tier type='checkbox' label='Ice' url={ice} className='detail' labelStyle='brownTxt titleItem'/>
-                    <DetailItem tier type='checkbox' label='Thunder' url={thunder} className='detail' labelStyle='brownTxt titleItem'/>
-                    <DetailItem tier type='checkbox' label='Magma' url={magma} className='detail' labelStyle='brownTxt titleItem'/>
-                    <DetailItem tier type='checkbox' label='Dawn' url={drawn} className='detail' labelStyle='brownTxt titleItem'/>
-                    <DetailItem tier type='checkbox' label='Air' url={air} className='detail' labelStyle='brownTxt titleItem'/>
+                <div className='horizontal'>
+                    <DetailItem tier type='checkbox' label='Mountain' url={mountain} className='detail' labelStyle='label'/>
+                    <DetailItem tier type='checkbox' label='Comet' url={comet} className='detail' labelStyle='label'/>
+                    <DetailItem tier type='checkbox' label='Inferno' url={inferno} className='detail' labelStyle='label'/>
+                    <DetailItem tier type='checkbox' label='Wood' url={wood} className='detail' labelStyle='label'/>
+                    <DetailItem tier type='checkbox' label='Plasma' url={plasma} className='detail' labelStyle='label'/>
+                    <DetailItem tier type='checkbox' label='Ice' url={ice} className='detail' labelStyle='label'/>
+                    <DetailItem tier type='checkbox' label='Thunder' url={thunder} className='detail' labelStyle='label'/>
+                    <DetailItem tier type='checkbox' label='Magma' url={magma} className='detail' labelStyle='label'/>
+                    <DetailItem tier type='checkbox' label='Dawn' url={drawn} className='detail' labelStyle='label'/>
+                    <DetailItem tier type='checkbox' label='Air' url={air} className='detail' labelStyle='label'/>
                 </div>
             </div>
             <div >
                 <p>Tier 3</p>
-                <div className='detail titleForm'>
-                <DetailItem tier type='checkbox' label='Storm' url={storm} className='detail' labelStyle='brownTxt titleItem'/>
-                    <DetailItem tier type='checkbox' label='Gamma' url={gamma} className='detail' labelStyle='brownTxt titleItem'/>
-                    <DetailItem tier type='checkbox' label='Plant' url={plant} className='detail' labelStyle='brownTxt titleItem'/>
-                    <DetailItem tier type='checkbox' label='Solar' url={solar} className='detail' labelStyle='brownTxt titleItem'/>
-                    <DetailItem tier type='checkbox' label='Meteor' url={meteor} className='detail' labelStyle='brownTxt titleItem'/>
-                    <DetailItem tier type='checkbox' label='Doom' url={doom} className='detail' labelStyle='brownTxt titleItem'/>
+                <div className='horizontal'>
+                <DetailItem tier type='checkbox' label='Storm' url={storm} className='detail' labelStyle='label'/>
+                    <DetailItem tier type='checkbox' label='Gamma' url={gamma} className='detail' labelStyle='label'/>
+                    <DetailItem tier type='checkbox' label='Plant' url={plant} className='detail' labelStyle='label'/>
+                    <DetailItem tier type='checkbox' label='Solar' url={solar} className='detail' labelStyle='label'/>
+                    <DetailItem tier type='checkbox' label='Meteor' url={meteor} className='detail' labelStyle='label'/>
+                    <DetailItem tier type='checkbox' label='Doom' url={doom} className='detail' labelStyle='label'/>
                 </div>
             </div>
         </div>
