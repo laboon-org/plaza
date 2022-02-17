@@ -1,0 +1,14 @@
+.horizontal {
+    .item {
+        display: flex;
+        width: 25%;
+        // min-width: 62px;
+    }
+}
+.horizontal {
+    display: flex;
+    // justify-content: space-between;
+    margin: 10px;
+    padding-top: -50px;
+    flex-wrap: wrap;
+}

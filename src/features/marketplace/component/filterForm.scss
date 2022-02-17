@@ -1,0 +1,41 @@
+.filterForm {
+    width: 23.4%;
+    height: 100%;
+    border-radius: 10px;
+    border-width: 10px;
+    margin: 15px;
+    border: 2px solid #ADA197;
+}
+.filter {
+    width: 93.36%;
+    background-color: #D8C7BA;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    height: 8%;
+ }
+ .padding {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.redTxt {
+    color: #CF5758;
+    font-size: 15px;
+    padding-right: 10px;
+}
+.gen {
+    width: 93.36%;
+    background-color: #D8C7BA;
+    border-radius: 10px;
+    margin: 10px;
+    height: 14.4%;
+ }
+ .brownTxt {
+    color: #5B5A59;
+    font-size: 20px;
+    font-weight: bold;
+    padding : 10px;
+}

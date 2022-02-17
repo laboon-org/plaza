@@ -1,0 +1,26 @@
+.button {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #2F3957;
+    border-color: black;
+    display: flex;
+    width: 15.7%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+button:hover {
+    background-color: #C4BAA1;
+}
+.iconButton {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.title {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+    -webkit-text-stroke: 0.2px black;
+}
