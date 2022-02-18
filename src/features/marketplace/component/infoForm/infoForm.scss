@@ -13,6 +13,8 @@
 .infoForm-frame {
     width: 96%;
     height: 96%;
+    display: flex;
+    flex-direction: column;
 }
 
 .infoForm-header {
@@ -20,9 +22,11 @@
     justify-content: space-between;
     align-items: center;
     height: 40px;
+    margin-bottom: 20px;
 }
 
 .infoForm-header__left {
+    min-width: 260px;
     width: 30%;
     display: flex;
     justify-content: space-between;
@@ -39,12 +43,38 @@
 }
 
 .infoForm-header__left--button {
+    position: relative;
+    height: 35px;
+    margin: 2.5px auto;
+    img {
+        height: 100%;
+    }
+}
+
+.infoForm-header__left__button--text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     display: flex;
     align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+    i {
+        margin-left: 5px;
+    }
 }
 
 .infoForm-header__right {
     width: 28.7%;
     display: flex;
     justify-content: space-between;
+}
+.infoForm-header__right--tasklist {
+    width: 58px;
+    height: 29px;
 }

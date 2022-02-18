@@ -1,0 +1,31 @@
+.infoForm-footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 70%;
+    height: 40px;
+    margin: auto;
+}
+
+.infoForm-footer__element {
+    display: flex;
+    img {
+        margin: 0 5px;
+    }
+}
+.infoForm-footer__element--number {
+    position: relative;
+    p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        font-size: 16px;
+        font-weight: 600;
+        color: #ffffff;
+    }
+}
