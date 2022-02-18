@@ -1,9 +1,12 @@
-.headerTxt {
-    font-size: 30;
-    color: white;
-    padding-left: 10px;
-    text-align: center;
-}
+@import "./component/button.scss";
+@import "./component/content.scss";
+@import "./component/detailItem.scss";
+@import "./component/filterForm.scss";
+@import "./component/genItem.scss";
+@import "./component/header.scss";
+@import "./component/rarityItem.scss";
+@import "./component/tier.scss";
+
 .background {
     background-color: black;
     height: 100vh;
@@ -45,7 +48,6 @@
 .title {
     font-size: 20px;
     color: white;
-    margin-top: 10px;
     font-weight: bold;
 }
 button:hover {
@@ -88,10 +90,4 @@ button:hover {
 }
 .radio {
     background-color: red;
-}
-.brownTxt {
-    color: #5b5a59;
-}
-.redTxt {
-    color: #cf5758;
 }

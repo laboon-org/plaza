@@ -11,6 +11,10 @@
     display: flex;
     img {
         margin: 0 5px;
+        cursor: pointer;
+    }
+    p {
+        cursor: pointer;
     }
 }
 .infoForm-footer__element--number {
