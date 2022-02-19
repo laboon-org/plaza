@@ -5,10 +5,10 @@ $information-left__id-width: 60%;
     height: calc(100% - 100px);
     display: flex;
     flex-wrap: wrap;
-    // justify-content: space-between;
     overflow-y: scroll;
-    margin-left: -20px;
-    // justify-content: space-evenly;
+    justify-content: center;
+    margin: 0 -5px;
+    margin-bottom: -25px;
 }
 
 .infoForm-content::-webkit-scrollbar {
@@ -22,8 +22,8 @@ $information-left__id-width: 60%;
     width: $element-width;
     height: $element-height;
     background: url(../../../../image/element_background.png) no-repeat center / cover;
-    margin-bottom: 40px;
-    margin-left: 20px;
+    margin: 0 5px;
+    margin-bottom: 25px;
 }
 
 .infoForm-element--frame {
@@ -46,7 +46,6 @@ $information-left__id-width: 60%;
 .information-left__id {
     width: $information-left__id-width;
     height: calc(32.5 * $information-left__id-width / 100);
-    // background: linear-gradient(180deg, #ff9a3e 7.51%, #d67e55 98.78%);
 }
 
 .information-left__level {

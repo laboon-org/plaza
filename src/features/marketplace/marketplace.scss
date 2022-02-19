@@ -61,6 +61,7 @@ button:hover {
     border-bottom-right-radius: 10px;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
 }
 .buttonForm {
     display: flex;
@@ -70,7 +71,6 @@ button:hover {
 }
 .filterForm {
     width: 23.4%;
-    height: 300px;
     border-radius: 10px;
     border-color: black;
 }
