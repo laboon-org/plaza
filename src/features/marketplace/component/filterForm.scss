@@ -1,43 +1,60 @@
 .filterForm {
     width: 23.4%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 12px;
     border-width: 10px;
-    margin: 15px;
+    margin: 0 15px;
     border: 2px solid #ada197;
+
+    position: relative;
+}
+.item-form {
+    width: 93.36%;
+    height: calc(100% - 45px);
+    margin: auto;
+    margin-top: 45px;
+    overflow-y: scroll;
+}
+.item-form::-webkit-scrollbar {
+    display: none;
 }
 .filter {
+    position: absolute;
+    z-index: 99;
+    left: 3.32%;
     width: 93.36%;
+    top: 10px;
     background-color: #d8c7ba;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     display: flex;
     justify-content: space-between;
-    margin: 10px;
     align-items: center;
     height: 35px;
     display: flex;
     align-items: center;
 }
-.padding {
-    margin-left: 10px;
-    margin-right: 10px;
-}
+
 .redTxt {
-    color: #cf5758;
-    font-size: 15px;
+    color: #cf5758 !important;
+    font-size: 13px !important;
     padding-right: 10px;
 }
+
 .gen {
-    width: 93.36%;
+    width: 100%;
     background-color: #d8c7ba;
     border-radius: 10px;
-    margin: 10px;
-    height: 14.4%;
+    margin: auto;
+    margin-top: 10px;
+}
+.gen-frame {
+    width: 95%;
+    margin: 0 auto;
+    padding: 5px 0;
 }
 .brownTxt {
     color: #5b5a59;
     font-size: 20px;
     font-weight: bold;
-    padding: 10px;
 }

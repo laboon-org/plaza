@@ -4,6 +4,7 @@ import purchase_btn from '../../../../image/image_infoForm/purchase_btn.png'
 import backgroundBtn from '../../../../image/image_infoForm/button-orange.png'
 import InfoFormBtn from './infoForm_button'
 import InformationItem from './information_item'
+import { Col } from 'react-bootstrap'
 
 export default function InfoFormElement(
   props:{
@@ -17,7 +18,7 @@ export default function InfoFormElement(
     image_level,level
   }=props
   return (
-    <div className='infoForm-element'>
+    <Col className='infoForm-element'>
         <div className='infoForm-element--frame'>
           <div className='information'>
           <div className='information-left'>
@@ -50,6 +51,6 @@ export default function InfoFormElement(
               <img src={purchase_btn} alt="" />
           </div>
         </div>
-    </div>
+    </Col>
   )
 }

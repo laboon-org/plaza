@@ -1,15 +1,14 @@
 .horizontal {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     .item {
         display: flex;
         width: 25%;
         align-items: center;
-        // min-width: 62px;
+        min-width: 105px;
     }
-}
-.horizontal {
-    display: flex;
-    // justify-content: space-between;
-    margin: 10px;
-    padding-top: -50px;
-    flex-wrap: wrap;
+    input {
+        margin-right: 2px;
+    }
 }

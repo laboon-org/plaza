@@ -6,9 +6,11 @@ export default function ItemForm(props : {title: any; className: any; titleStyle
     const { title, className, titleStyle, gen } = props;
     return (
         <div className={className}>
+            <div className='gen-frame'>
             <p className={titleStyle}>{title}</p>
             <div>
                 {gen === true ? (<GenItem />) : (<RarityItem />)}
+            </div>
             </div>
         </div>
     )

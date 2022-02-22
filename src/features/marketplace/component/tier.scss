@@ -1,11 +1,24 @@
-.titleForm {
-    justify-content: space-between;
-}
 .tierForm {
+    position: relative;
+    width: 100%;
     background-color: #d8c7ba;
     border: 1px solid #ada197;
     border-radius: 10px;
-    margin: 10px;
+    margin: 10px auto;
+    margin-top: 40px;
+    overflow-y: scroll;
+}
+.titleForm {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+}
+.tierForm::-webkit-scrollbar {
+    display: none;
 }
 .tierButton {
     width: auto;
