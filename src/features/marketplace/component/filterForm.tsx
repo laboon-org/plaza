@@ -11,7 +11,7 @@ export default function FilterForm() {
             </div>
             <div className='item-form'>
             <ItemForm gen={true} title='Gen' className='gen' titleStyle='brownTxt' />
-            <ItemForm gen={false}  title='Rarity' className='gen' titleStyle='title brownTxt' />
+            <ItemForm gen={false}  title='Rarity' className='gen' titleStyle='brownTxt' />
             <Tier />
             </div>
         </div>

@@ -11,7 +11,7 @@ export default function InfoFormContent() {
   return (
      <div className='infoForm-content'>
        <Container>
-         <Row  sm={3} md={4}lg={5} xxl={8} >
+         <Row  sm={1} md={2}lg={3} xl={4} xxl={5} >
            <InfoFormElement iconItem1={iconItem1}
           iconItem2={iconItem1}
           iconItem3={iconItem1}

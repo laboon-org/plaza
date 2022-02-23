@@ -1,6 +1,7 @@
 .headerForm {
     display: flex;
     height: 95px;
+    margin: auto;
     align-items: center;
 }
 .logo {
@@ -9,7 +10,7 @@
 }
 .headerTxt {
     font-size: 30;
-    color:white;
+    color: white;
     padding-left: 10px;
     text-align: center;
 }

@@ -18,7 +18,8 @@ export default function InfoFormElement(
     image_level,level
   }=props
   return (
-    <Col className='infoForm-element'>
+    <Col className='element'>
+      <div className='infoForm-element'>
         <div className='infoForm-element--frame'>
           <div className='information'>
           <div className='information-left'>
@@ -26,7 +27,7 @@ export default function InfoFormElement(
            <InfoFormBtn backgroundBtn={backgroundBtn} textBtn='#123456' />
               </div>
               <div className='information-left__level'>
-                <p>{level}</p>
+                <p className='information-left__level--title'>{level}</p>
                 <img className='information-left__level--img' src={image_level} alt="" />
               </div>
               <img className='information-left__image' src={a} alt="" />
@@ -50,6 +51,7 @@ export default function InfoFormElement(
           <div className='infoForm-element__button'>
               <img src={purchase_btn} alt="" />
           </div>
+        </div>
         </div>
     </Col>
   )

@@ -27,9 +27,9 @@
 }
 
 .infoForm-header__left {
-    min-width: 260px;
-    width: 30%;
+    width: 325px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -67,13 +67,15 @@ select {
     width: 90px;
     border-radius: 8px;
     background: url("../../../../image/optionBtn_background.png") no-repeat center / cover;
+    cursor: pointer;
 }
 .infoForm-header__right--button {
     position: relative;
     height: 33.75px;
-    width: 141px;
+    width: 145px;
     border-radius: 10px;
     background: url("../../../../image/image_infoForm/Button.png") no-repeat center / cover;
+    cursor: pointer;
 }
 .background-option {
     background: #7fbfe1;
@@ -103,11 +105,13 @@ select {
 }
 
 .infoForm-header__right {
-    width: 28.7%;
+    width: 225px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .infoForm-header__right--tasklist {
     width: 58px;
     height: 29px;
+    cursor: pointer;
 }

@@ -15,13 +15,14 @@ iframe {
   z-index: -1 !important;
 }
 p {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 
 // global
 @import "./styles/colors";
 @import "./styles/antd-custom";
 @import "./styles/global";
+@import "~bootstrap/scss/bootstrap";
 
 // components
 @import "components/components";

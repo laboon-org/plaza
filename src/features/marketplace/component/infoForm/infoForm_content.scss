@@ -14,14 +14,18 @@ $information-left__id-width: 60%;
     width: 0 !important;
     display: none;
 }
+.element {
+    display: flex;
+    justify-content: center;
+}
 .infoForm-element {
     display: flex;
     align-items: center;
     width: $element-width;
     height: $element-height;
     background: url(../../../../image/element_background.png) no-repeat center / cover;
-    margin: 0 5px;
-    margin-bottom: 25px;
+    margin: 0 -7px;
+    margin-bottom: 35px;
 }
 
 .infoForm-element--frame {
@@ -50,8 +54,13 @@ $information-left__id-width: 60%;
     display: flex;
     .information-left__level--img {
         width: 20px;
+        height: 20px;
         margin-left: 10px;
     }
+}
+.information-left__level--title {
+    color: #ffffff;
+    font-weight: 700;
 }
 .information-left__image {
     margin-left: 20%;
@@ -92,7 +101,8 @@ $information-left__id-width: 60%;
 }
 .price-usd {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
+    color: #ffffff;
 }
 
 .infoForm-element__button {
@@ -100,6 +110,7 @@ $information-left__id-width: 60%;
     bottom: -25px;
     left: 10%;
     width: 80%;
+    cursor: pointer;
     img {
         width: 100%;
     }

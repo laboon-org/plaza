@@ -32,7 +32,7 @@ export default function Tier() {
                 <button>Elemental</button>
             </div>
             <div className='gen-frame'>
-                <p>Tier 1</p>
+                <p className='brownTxt'>Tier 1</p>
                 <div className='horizontal'>
                     <DetailItem tier type='checkbox' label='Earth' url={earth} className='detail' labelStyle='label' />
                     <DetailItem tier type='checkbox' label='Neutral' url={neutral} className='detail' labelStyle='label'/>
@@ -44,7 +44,7 @@ export default function Tier() {
                 </div>
             </div>
             <div className='gen-frame' >
-                <p>Tier 2</p>
+                <p  className='brownTxt'>Tier 2</p>
                 <div className='horizontal'>
                     <DetailItem tier type='checkbox' label='Mountain' url={mountain} className='detail' labelStyle='label'/>
                     <DetailItem tier type='checkbox' label='Comet' url={comet} className='detail' labelStyle='label'/>
@@ -59,7 +59,7 @@ export default function Tier() {
                 </div>
             </div>
             <div className='gen-frame' >
-                <p>Tier 3</p>
+                <p  className='brownTxt'>Tier 3</p>
                 <div className='horizontal'>
                 <DetailItem tier type='checkbox' label='Storm' url={storm} className='detail' labelStyle='label'/>
                     <DetailItem tier type='checkbox' label='Gamma' url={gamma} className='detail' labelStyle='label'/>

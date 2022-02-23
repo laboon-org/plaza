@@ -1,5 +1,5 @@
 .main {
-    background-color: #2F3957;
+    background-color: #2f3957;
     border-radius: 25px;
     width: 98.47%;
     height: calc(100vh - 122px);
@@ -9,10 +9,26 @@
     padding: 10px;
 }
 .buttonForm {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.buttonForm-nav {
+    flex: 1;
     display: flex;
 }
+.buttonForm-back {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
 .body {
-    background-color: #F0E4DB;
+    background-color: #f0e4db;
     width: 100%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;

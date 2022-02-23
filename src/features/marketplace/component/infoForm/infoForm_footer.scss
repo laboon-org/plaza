@@ -5,6 +5,7 @@
     width: 100%;
     height: 40px;
     margin: auto;
+    margin-bottom: -5px;
     z-index: 10;
     background-color: #f0e4db;
 }
@@ -13,6 +14,7 @@
     display: flex;
     img {
         margin: 0 5px;
+        box-shadow: 0 5px 5px rgba($color: #000000, $alpha: 0.3);
         cursor: pointer;
     }
     p {
