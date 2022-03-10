@@ -1,9 +1,21 @@
 import React, { useState } from 'react'
 import optionbtn from '../../../../image/optionBtn_background.png'
-import arrangeBtn from '../../../../image/image_infoForm/arrange-button.png'
+import columnImg from '../../../../image/image_infoForm/column-btn.png'
+import rowImg from '../../../../image/image_infoForm/row-btn.png'
 
 export default function InfoFormHeader() {
     const [sale, setSale] = useState(false)
+    const [isColumnActive, setIsColumnActive] = useState('tasklist-element')
+    const [isRowActive, setIsRowActive] = useState('tasklist-element')
+
+    const changeColumnActive = ()=>{
+        setIsRowActive('tasklist-element')
+        setIsColumnActive('tasklist-element active')
+    }
+    const changeRowActive = ()=>{
+        setIsColumnActive('tasklist-element')
+        setIsRowActive('tasklist-element active')
+    }
   return (
     <div className='infoForm-header'>
         <div className='infoForm-header__left'>
@@ -29,11 +41,12 @@ export default function InfoFormHeader() {
             </select>
         </div>
         <div className='infoForm-header__right--tasklist'>
-            <img src={arrangeBtn} alt="" />
-            {/* <div className='tasklist-column'>
+            <div className={isColumnActive} onClick={changeColumnActive}>
+                <img src={columnImg} alt="" />
             </div>
-            <div className='tasklist-row'>  
-            </div> */}
+            <div className={isRowActive} onClick={changeRowActive}>  
+            <img src={rowImg} alt="" />
+            </div>
         </div>
         </div>
     </div>

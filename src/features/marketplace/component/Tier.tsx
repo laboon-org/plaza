@@ -28,9 +28,10 @@ export default function Tier() {
     return (
         <div className='tierForm'>
             <div className='titleForm'>
-                <button className='tierButton'>Body Parts</button>
-                <button>Elemental</button>
+                <div className='tierButton'>Body Parts</div>
+                <div className='tierButton'>Elemental</div>
             </div>
+            <div className='tierForm-content'>
             <div className='gen-frame'>
                 <p className='brownTxt'>Tier 1</p>
                 <div className='horizontal'>
@@ -68,6 +69,7 @@ export default function Tier() {
                     <DetailItem tier type='checkbox' label='Meteor' url={meteor} className='detail' labelStyle='label'/>
                     <DetailItem tier type='checkbox' label='Doom' url={doom} className='detail' labelStyle='label'/>
                 </div>
+            </div>
             </div>
         </div>
     )

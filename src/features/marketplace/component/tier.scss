@@ -3,31 +3,50 @@
     width: 100%;
     background-color: #d8c7ba;
     border: 1px solid #ada197;
+    border-top: none;
     border-radius: 10px;
-    margin: 10px auto;
-    margin-top: 40px;
+    margin: 20px auto;
     overflow-y: scroll;
 }
 .titleForm {
     position: absolute;
-    top: -30px;
+    top: 0;
     left: 0;
     width: 100%;
     z-index: 99;
     display: flex;
+    background-color: #f0e4db;
+    border-bottom: 1px solid #ada197;
     justify-content: space-between;
 }
 .tierForm::-webkit-scrollbar {
     display: none;
 }
 .tierButton {
-    width: auto;
+    width: 40%;
+    min-width: 70px;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d8c7ba;
+    border-top: 1px solid #ada197;
+    border-left: 1px solid #ada197;
+    border-right: 1px solid #ada197;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
 }
 .detail {
     display: flex;
     justify-content: center;
     align-self: center;
     align-items: center;
+}
+.tierForm-content {
+    width: 100%;
+    margin-top: 35px;
 }
 // .titleItem {
 //     font-size: 13px;

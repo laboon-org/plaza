@@ -15,15 +15,15 @@ export default function InfoFormFooter() {
         <img src={arowBack} alt="" />
       </div>
       <div className='infoForm-footer__element'>
-      <InfoFormPageNumbers text='01' />
-      <InfoFormPageNumbers text='02'/>
-      <InfoFormPageNumbers text='03'/>
-      <InfoFormPageNumbers text='...'/>
-      <InfoFormPageNumbers text='20'/>
+      <InfoFormPageNumbers text='01' pageActive='active'/>
+      <InfoFormPageNumbers text='02' pageActive=''/>
+      <InfoFormPageNumbers text='03' pageActive=''/>
+      <InfoFormPageNumbers text='...' pageActive=''/>
+      <InfoFormPageNumbers text='20' pageActive=''/>
       </div>
       <div className='infoForm-footer__element'>
-        <img src={doubleArow_next} alt="" />
         <img src={arowNext} alt="" />
+        <img src={doubleArow_next} alt="" />
       </div>
     </div>
   )
