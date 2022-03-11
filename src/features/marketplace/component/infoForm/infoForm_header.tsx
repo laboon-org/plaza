@@ -5,7 +5,7 @@ import rowImg from '../../../../image/image_infoForm/row-btn.png'
 
 export default function InfoFormHeader() {
     const [sale, setSale] = useState(false)
-    const [isColumnActive, setIsColumnActive] = useState('tasklist-element')
+    const [isColumnActive, setIsColumnActive] = useState('tasklist-element  active')
     const [isRowActive, setIsRowActive] = useState('tasklist-element')
 
     const changeColumnActive = ()=>{

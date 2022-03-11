@@ -1,0 +1,67 @@
+@media only screen and (max-width: 1024px) {
+    .tierButton {
+        font-size: 13px;
+    }
+    .label {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 768.1px) and (max-width: 992px) {
+    .tierButton {
+        font-size: 11px;
+    }
+    .title {
+        font-size: 14px;
+        margin-left: 5px;
+        -webkit-text-stroke: 0.3px black;
+    }
+    .redTxt {
+        font-size: 11px !important;
+        padding-right: 5px;
+    }
+    .brownTxt {
+        font-size: 18px;
+    }
+    .label {
+        font-size: 14px;
+    }
+
+    .infoForm-header__left {
+        width: 250px;
+    }
+
+    .infoForm-header__left--text {
+        font-size: 27px;
+    }
+
+    .infoForm-header__left--button {
+        height: 30px;
+        width: 80px;
+        border-radius: 8px;
+    }
+    .infoForm-header__right {
+        width: 200px;
+    }
+    .infoForm-header__right--tasklist {
+        display: flex;
+        width: 56px;
+        height: 29px;
+    }
+    .infoForm-header__right--button {
+        height: 30px;
+        width: 128.9px;
+        border-radius: 10px;
+    }
+    select {
+        font-size: 13px;
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+        padding-left: 8px;
+    }
+    .background-option {
+        font-size: 13px;
+    }
+    .infoForm-header {
+        margin-bottom: 10px;
+    }
+}
