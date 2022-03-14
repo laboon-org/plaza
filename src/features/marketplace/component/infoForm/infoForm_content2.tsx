@@ -6,6 +6,7 @@ import image_level from '../../../../image/level.png'
 import iconItem1 from '../../../../image/image_infoForm/icon_attact1.png'
 
 export default function InfoFormContent2() {
+  
   return (
   <>
         <ElementRow
@@ -23,6 +24,7 @@ export default function InfoFormContent2() {
           parameter6={50} 
           level='Gen 2'
           image_level={image_level}
+          idAcitve
           />
           <ElementRow
             iconItem1={iconItem1}
@@ -39,6 +41,7 @@ export default function InfoFormContent2() {
             parameter6={50} 
             level='Gen 2'
             image_level={image_level}
+            idAcitve
           />
           <ElementRow
             iconItem1={iconItem1}
@@ -55,6 +58,7 @@ export default function InfoFormContent2() {
             parameter6={50} 
             level='Gen 2'
             image_level={image_level}
+            idAcitve
           />
           <ElementRow
             iconItem1={iconItem1}
@@ -71,6 +75,7 @@ export default function InfoFormContent2() {
             parameter6={50} 
             level='Gen 2'
             image_level={image_level}
+            idAcitve
           />
           <ElementRow
             iconItem1={iconItem1}
@@ -87,6 +92,7 @@ export default function InfoFormContent2() {
             parameter6={50} 
             level='Gen 2'
             image_level={image_level}
+            idAcitve
           />
           <ElementRow
             iconItem1={iconItem1}
@@ -103,6 +109,7 @@ export default function InfoFormContent2() {
             parameter6={50} 
             level='Gen 2'
             image_level={image_level}
+            idAcitve
           />
           <ElementRow
             iconItem1={iconItem1}
@@ -119,6 +126,7 @@ export default function InfoFormContent2() {
             parameter6={50} 
             level='Gen 2'
             image_level={image_level}
+            idAcitve
           />
           <ElementRow
             iconItem1={iconItem1}
@@ -135,6 +143,7 @@ export default function InfoFormContent2() {
             parameter6={50} 
             level='Gen 2'
             image_level={image_level}
+            idAcitve
           />
           <ElementRow
             iconItem1={iconItem1}
@@ -151,6 +160,7 @@ export default function InfoFormContent2() {
             parameter6={50} 
             level='Gen 2'
             image_level={image_level}
+            idAcitve 
           />
   </>
   )

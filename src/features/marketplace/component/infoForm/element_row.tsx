@@ -27,7 +27,9 @@ export default function ElementRow(
           <div className='information-row'>
             <div className='information-row__idlevel'>
               <div className='information-row__left--id'>
-                <InfoFormBtn idActive={idAcitve} backgroundBtn={backgroundBtn} textBtn='#123456' />
+                <InfoFormBtn
+                idActive={idAcitve} 
+                backgroundBtn={backgroundBtn} textBtn='#123456' />
               </div>
               <div className='information-left__level'>
                 <p className='information-left__level--title'>{level}</p>
