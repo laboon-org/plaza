@@ -3,18 +3,20 @@ import optionbtn from '../../../../image/optionBtn_background.png'
 import columnImg from '../../../../image/image_infoForm/column-btn.png'
 import rowImg from '../../../../image/image_infoForm/row-btn.png'
 
-export default function InfoFormHeader() {
-    const [sale, setSale] = useState(false)
-    const [isColumnActive, setIsColumnActive] = useState('tasklist-element  active')
-    const [isRowActive, setIsRowActive] = useState('tasklist-element')
 
-    const changeColumnActive = ()=>{
-        setIsRowActive('tasklist-element')
-        setIsColumnActive('tasklist-element active')
-    }
-    const changeRowActive = ()=>{
-        setIsColumnActive('tasklist-element')
-        setIsRowActive('tasklist-element active')
+export default function InfoFormHeader(props:{arrange:any}) {
+    
+    const [sale, setSale] = useState(false)
+    const {arrange}=props
+    const [isRowActive, setIsRowActive] = useState(false)
+
+     const changeRowActive = ()=>{
+         setIsRowActive(true);
+         arrange(isRowActive);
+     }
+     const changeColumnActive = ()=>{
+        setIsRowActive(false);
+        arrange(isRowActive);
     }
   return (
     <div className='infoForm-header'>
@@ -31,23 +33,35 @@ export default function InfoFormHeader() {
         </div>
         </div>
         <div className='infoForm-header__right'>
-        <div className='infoForm-header__right--button'>
-            <select id="selected" className='infoForm-header__right--button' >
-                <option className='background-option' selected value="For sale">Lowest Price</option>
-                <option className='background-option' value="Specials">Newest</option>
-                <option className='background-option' value="All">Latest</option>
-                <option className='background-option' value="All">Lowest Price</option>
-                <option className='background-option' value="All">Highest Price</option>
-            </select>
-        </div>
-        <div className='infoForm-header__right--tasklist'>
-            <div className={isColumnActive} onClick={changeColumnActive}>
-                <img src={columnImg} alt="" />
+            <div className='infoForm-header__right--button'>
+                <select id="selected" className='infoForm-header__right--button' >
+                    <option className='background-option' selected value="For sale">Lowest Price</option>
+                    <option className='background-option' value="Specials">Newest</option>
+                    <option className='background-option' value="All">Latest</option>
+                    <option className='background-option' value="All">Lowest Price</option>
+                    <option className='background-option' value="All">Highest Price</option>
+                </select>
             </div>
-            <div className={isRowActive} onClick={changeRowActive}>  
-            <img src={rowImg} alt="" />
-            </div>
-        </div>
+
+            {
+                isRowActive?
+                <div className='infoForm-header__right--tasklist'>
+                    <div className='tasklist-element' onClick={changeColumnActive}>
+                        <img src={columnImg} alt="" />
+                    </div>  
+                    <div className='tasklist-element  active' onClick={changeRowActive}>  
+                    <img src={rowImg} alt="" />
+                    </div> 
+                </div> :
+                <div className='infoForm-header__right--tasklist'>
+                    <div className='tasklist-element  active' onClick={changeColumnActive}>
+                        <img src={columnImg} alt="" />
+                    </div>  
+                    <div className='tasklist-element' onClick={changeRowActive}>  
+                    <img src={rowImg} alt="" />
+                    </div> 
+                </div>   
+            }
         </div>
     </div>
   )
